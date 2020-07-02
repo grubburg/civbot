@@ -1,4 +1,5 @@
 import os
+import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 import random
@@ -21,18 +22,71 @@ async def draft(ctx, numcivs):
 
     for i, m in enumerate(channel.members):
         
-        playername = str(m).split("#")[0]
+        playername = ("**" + str(m).split("#")[0] + "**")
         
         pcivs = [civs.pop(0) for _ in range(int(numcivs))]
         
         civstring = ''
         for i in range(numcivs):
-            civstring = civstring + pcivs[i] + " "
+            
+
+            emoji = str(discord.utils.get(ctx.guild.emojis, name=pcivs[i]))
+
+            newciv = ("\t\t"+ emoji + pcivs[i] + emoji)
+            
+            civstring = civstring + newciv
 
         response = "{}: {}".format(playername, civstring)
 
 
-        await ctx.send(response)
+        await ctx.send(response+ "\n" + "="*64)
+
+
+
+@bot.command(name="mapvote")
+async def mapvote(ctx):
+    channel = bot.get_channel(480628202956390410)
+    n = len(channel.members)
+
+    worldagereacts = [""]
+
+
+    await ctf.send("WorldAge (New/Standard/Old)")
+
+
+
+
+"""
+Polling function:
+
+- World Age
+    - New
+    - Standard
+    - Old
+    - Random
+
+- Map Type
+    - Pangea
+    - Continents
+    - Fractal
+    - Continents/Islands
+    - Small Continents
+    
+- Temperature
+    - Cold
+    - Standard
+    - Hot
+- Rainfall
+    - Arid
+    - Standard
+    - Wet
+- Sealevel
+    - Low
+    - Standard
+    - High
+
+"""
+
 
 
 
