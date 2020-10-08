@@ -45,4 +45,4 @@ civs = [
 ("Russia",["Peter"])
 ("Zulu",["Shaka"])
 ("Sweden",["Kristina"])
-("Maori"]["Kupe"])
+("Maori"],["Kupe"])
