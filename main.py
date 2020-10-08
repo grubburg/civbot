@@ -30,9 +30,9 @@ async def draft(ctx, numcivs):
         for i in range(numcivs):
             
 
-            emoji = str(discord.utils.get(ctx.guild.emojis, name=pcivs[i]))
+            emoji = str(discord.utils.get(ctx.guild.emojis, name=pcivs[i][0]))
 
-            newciv = ("\t\t"+ emoji + pcivs[i] + emoji)
+            newciv = ("\t\t"+ emoji + random.choice(pcivs[i][1]) + emoji)
             
             civstring = civstring + newciv
 
