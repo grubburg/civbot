@@ -1,48 +1,49 @@
 civs = [
-("Byzantium",["Basil II"])
-("Gaul",["Ambiorix"])
-("Maya",["Lady Six Sky"])
-("Ethiopia",["Menelik II"])
-("GranColombia",["Simón Bolívar"])
-("Macedon",["Alexander"])
-("Korea",["Seondeok"])
-("France",["Eleanor", "Catherine (BQ)", "Catherine (M)"])
-("Rome",["Trajan"])
-("Germany",["Frederick"])
-("Mapuche",["Lautaro"])
-("Kongo",["Mvemba a Nzinga"])
-("Persia",["Cyrus"])
-("Australia",["John Curtin"])
-("Georgia",["Tamar"])
-("Canada",["Wilfrid Laurier"])
-("China",["Qin Shi Huang"])
-("Aztec",["Montezuma"])
-("Dutch",["Wilhelmina"])
-("Khmer",["Jayavarman VII"])
-("Scotland",["Robert the Bruce"])
-("America",["Teddy Roosevelt (RR)", "Teddy Roosevelt (BM)"])
-("Inca",["Pachacuti"])
-("Spain",["Philip II"])
-("England",["Victoria", "Eleanor"])
-("OttomanEmpire",["Suleiman"])
-("Egypt",["Cleopatra"])
-("Cree",["Poundmaker"])
-("Mongolia",["Genghis Khan"])
-("Brazil",["Pedro II"])
-("Indonesia",["Gitarja"])
-("Japan",["Hojo Tokimune"])
-("India",["Ghandi", "Chandragupta"])
-("Arabia",["Saladin"])
-("Scythia",["Tomyris"])
-("Greece",["Gorgo"])
-("Sumeria",["Gilgamesh"])
-("Hungary",["Matthias Corvinus"])
-("Poland",["Jadwiga"])
-("Norway",["Harald Hardrada"])
-("Phoenicia",["Dido"])
-("Mali",["Mansa Musa"])
-("Nubia",["Amantiore"])
-("Russia",["Peter"])
-("Zulu",["Shaka"])
-("Sweden",["Kristina"])
-("Maori"],["Kupe"])
+("Byzantium",["Basil II"]),
+("Gaul",["Ambiorix"]),
+("Maya",["Lady Six Sky"]),
+("Ethiopia",["Menelik II"]),
+("GranColombia",["Simón Bolívar"]),
+("Macedon",["Alexander"]),
+("Korea",["Seondeok"]),
+("France",["Eleanor", "Catherine (BQ)", "Catherine (M)"]),
+("Rome",["Trajan"]),
+("Germany",["Frederick"]),
+("Mapuche",["Lautaro"]),
+("Kongo",["Mvemba a Nzinga"]),
+("Persia",["Cyrus"]),
+("Australia",["John Curtin"]),
+("Georgia",["Tamar"]),
+("Canada",["Wilfrid Laurier"]),
+("China",["Qin Shi Huang"]),
+("Aztec",["Montezuma"]),
+("Dutch",["Wilhelmina"]),
+("Khmer",["Jayavarman VII"]),
+("Scotland",["Robert the Bruce"]),
+("America",["Teddy Roosevelt (RR)", "Teddy Roosevelt (BM)"]),
+("Inca",["Pachacuti"]),
+("Spain",["Philip II"]),
+("England",["Victoria", "Eleanor"]),
+("OttomanEmpire",["Suleiman"]),
+("Egypt",["Cleopatra"]),
+("Cree",["Poundmaker"]),
+("Mongolia",["Genghis Khan"]),
+("Brazil",["Pedro II"]),
+("Indonesia",["Gitarja"]),
+("Japan",["Hojo Tokimune"]),
+("India",["Ghandi", "Chandragupta"]),
+("Arabia",["Saladin"]),
+("Scythia",["Tomyris"]),
+("Greece",["Gorgo"]),
+("Sumeria",["Gilgamesh"]),
+("Hungary",["Matthias Corvinus"]),
+("Poland",["Jadwiga"]),
+("Norway",["Harald Hardrada"]),
+("Phoenicia",["Dido"]),
+("Mali",["Mansa Musa"]),
+("Nubia",["Amantiore"]),
+("Russia",["Peter"]),
+("Zulu",["Shaka"]),
+("Sweden",["Kristina"]),
+("Maori",["Kupe"])
+]
