@@ -1,4 +1,5 @@
 civs = [
+("Babylon",["Hammurabi"]),
 ("Byzantium",["Basil II"]),
 ("Gaul",["Ambiorix"]),
 ("Maya",["Lady Six Sky"]),
@@ -34,7 +35,7 @@ civs = [
 ("India",["Ghandi", "Chandragupta"]),
 ("Arabia",["Saladin"]),
 ("Scythia",["Tomyris"]),
-("Greece",["Gorgo"]),
+("Greece",["Gorgo", "Pericles"]),
 ("Sumeria",["Gilgamesh"]),
 ("Hungary",["Matthias Corvinus"]),
 ("Poland",["Jadwiga"]),
